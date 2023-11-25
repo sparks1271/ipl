@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.team-matches-route-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.rcb {
+  background-image: linear-gradient(to top, #1e293b, #a4261d);
+}
+.kkr {
+  background-image: linear-gradient(to top, #1e293b, #5755a7);
+}
+.kxp {
+  background-image: linear-gradient(to top, #1e293b, #d91c1f);
+}
+.csk {
+  background-image: linear-gradient(to top, #1e293b, #f7db00);
+}
+.mi {
+  background-image: linear-gradient(to top, #1e293b, #13418b);
+}
+.srh {
+  background-image: linear-gradient(to top, #1e293b, #f26d22);
+}
+.dc {
+  background-image: linear-gradient(to top, #1e293b, #4f5bd0);
+}
+
+.team-matches-container {
+  width: 90%;
+  margin-top: 48px;
+  max-width: 500px;
+}
+
+@media screen and(min-width:768px) {
+  .team-matches-container {
+    margin-top: 96px;
+    max-width: 1110px;
+  }
+}
+
+.team-banner {
+  width: 100%;
+}
+
+.recent-matches-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0px;
+  margin-right: 24px;
+}
+
+@media screen and(min-width:768px) {
+  .recent-matches-list {
+    margin-top: 32px;
+  }
+}

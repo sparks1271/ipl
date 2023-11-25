@@ -1,0 +1,139 @@
+/* Write your CSS here */
+.latest-match-card-container {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.latest-match-heading {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Bree-Serif';
+  color: #ffffff;
+}
+
+.latest-match-card {
+  display: flex;
+  color: #0f172a;
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
+  flex-direction: column;
+}
+
+@media screen and(min-width:768px) {
+  .latest-match-card {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .latest-match-logo-container {
+    width: 60%;
+  }
+  .latest-match-details-main {
+    width: 100%;
+  }
+
+  .latest-match-teams-name {
+    font-size: 22px;
+  }
+}
+.latest-match-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.latest-match-details-main {
+  color: #ffffff;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  font-family: 'Bree Serif';
+}
+
+.latest-match-teams-name {
+  font-family: 18px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+@media screen and(min-width:768px) {
+  .latest-match-date,
+  .latest-match-status,
+  .latest-match-venue {
+    font-size: 18px;
+  }
+  .latest-match-logo {
+    min-width: 150px;
+    min-height: 150px;
+    max-height: 200px;
+  }
+}
+
+.latest-match-date,
+.latest-match-status,
+.latest-match-venue {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.latest-match-logo {
+  width: 100px;
+  height: 100px;
+}
+.latest-match-details-info {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 20px;
+}
+
+@media screen and(min-width:767px) {
+  .latest-match-details-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media screen and(min-width:768px) {
+  .latest-match-details-info {
+    text-align: right;
+    padding-left: 0px;
+    padding-right: 32px;
+    width: 33%;
+  }
+}
+
+@media screen and(min-width:767px) {
+  .match-info-item {
+    width: 43%;
+    padding: 8px;
+    border: 0.5 solid #fff9fc;
+    border-radius: 25px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    min-height: 100px;
+    max-height: 200px;
+  }
+}
+
+.latest-match-details-label {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 14px;
+}
+
+@media screen and(min-width:768px) {
+  .latest-match-details-label {
+    font-size: 18px;
+  }
+  .latest-match-details-view {
+    font-size: 14px;
+  }
+}
+.latest-match-details-view {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Bree Serif';
+}
